@@ -1,16 +1,13 @@
-# Latihan 4: Histogram Kata
+# Latihan 4: 
 
-# Meminta input kalimat dari pengguna
-kalimat = input("Masukkan sebuah kalimat: ").lower()   # ubah ke lowercase biar konsisten
+kalimat = input("Masukkan sebuah kalimat: ").lower()   
 
-# Ubah kalimat jadi list kata-kata
 kata_list = kalimat.split()
 
-# Buat dictionary histogram
 histogram = {}
 
 for kata in kata_list:
-    histogram[kata] = histogram.get(kata, 0) + 1   # hitung frekuensi kata
+    histogram[kata] = histogram.get(kata, 0) + 1  
 
 # Cetak hasil histogram
 print("Histogram kata:", histogram)

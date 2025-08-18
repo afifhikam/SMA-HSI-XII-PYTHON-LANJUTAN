@@ -1,6 +1,5 @@
-# Latihan 1: Membuat dan Mengakses
+# Latihan 1:
 
-# Membuat dictionary biodata
 biodata = {
     "nama": "Apip",
     "umur": 20,
@@ -8,11 +7,10 @@ biodata = {
     "sudah_menikah": False
 }
 
-# Cetak seluruh dictionary
+
 print("Dictionary biodata:", biodata)
 
-# Cetak hanya value dari key "nama"
+
 print("Nama:", biodata["nama"])
 
-# Cetak hobi pertama dari list hobi
 print("Hobi pertama:", biodata["hobi"][0])
