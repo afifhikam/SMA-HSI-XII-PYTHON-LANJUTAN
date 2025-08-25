@@ -1,21 +1,17 @@
-# Membuat class RekeningBank
 class RekeningBank:
-    # Constructor
+
     def __init__(self, nomor_rekening, nama_pemilik):
         self.nomor_rekening = nomor_rekening
         self.nama_pemilik = nama_pemilik
-        self.saldo = 0  # saldo awal 0
+        self.saldo = 0  
 
-    # Method untuk melihat saldo
     def lihat_saldo(self):
         print(f"Saldo {self.nama_pemilik} saat ini: Rp{self.saldo}")
 
-    # Method untuk setor
     def setor(self, jumlah):
         self.saldo += jumlah
         print(f"Setor sebesar Rp{jumlah} berhasil. Saldo sekarang: Rp{self.saldo}")
 
-    # Method untuk tarik
     def tarik(self, jumlah):
         if jumlah > self.saldo:
             print("Saldo tidak mencukupi")
