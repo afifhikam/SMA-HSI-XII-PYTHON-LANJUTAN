@@ -1,14 +1,9 @@
 # LATIHAN 6
 
-# Tujuan singkat: minta umur, ulang terus sampai inputnya angka dan masuk akal (0–100).
-# Langkah step-by-step:
-# Mulai loop while True supaya program terus minta input sampai valid.
-# Minta input dari user (input()), hasilnya string.
-# Coba konversi string ke int dengan int(...).
-# Kalau konversi gagal, akan muncul ValueError → tangkap dengan except dan beri pesan "Input tidak valid".
-# Kalau berhasil jadi integer, cek apakah di rentang 0–100. Kalau tidak, beri pesan "Umur tidak wajar" dan loop lanjut.
-# Kalau valid, print umur dan break keluar dari loop.
-# Contoh kode (komentar jelasin tiap baris):
+# Buat program yang meminta pengguna memasukan umur mereka
+# Program akan meminta terus untuk memasukan umur pengguna selama pengguna memasukan umur yang tidak valid
+# Nilai yang valid itu 0 sampai 100, dan harus menggunakan angka bukan menggunakan huruf
+
 
    
 while True:
